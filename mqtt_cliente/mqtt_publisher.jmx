@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.2">
+  <hashTree>
+    <net.xmeter.samplers.PubSampler guiclass="net.xmeter.gui.PubSamplerUI" testclass="net.xmeter.samplers.PubSampler" testname="Notificaciones/clientes/sms" enabled="true">
+      <stringProp name="mqtt.topic_name">notificaciones/clientes/sms</stringProp>
+      <stringProp name="mqtt.qos_level">1</stringProp>
+      <boolProp name="mqtt.add_timestamp">false</boolProp>
+      <stringProp name="mqtt.message_type">String</stringProp>
+      <stringProp name="mqtt.message_type_fixed_length">1024</stringProp>
+      <stringProp name="mqtt.message_to_sent">os pagos de los creditos pendientes son los 17 de cada mes.</stringProp>
+      <boolProp name="mqtt.retained_message">false</boolProp>
+    </net.xmeter.samplers.PubSampler>
+    <hashTree/>
+  </hashTree>
+</jmeterTestPlan>
