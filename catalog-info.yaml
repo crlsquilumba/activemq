@@ -5,14 +5,9 @@ metadata:
   description: Test activeMQ
   annotations:
     github.com/project-slug: crlsquilumba/activemq
-    github.com/branch-count: "1"
-    github.com/has-gitflow: "false"
-    github.com/default-branch: "main"
-  links:
-    - url: https://github.com/crlsquilumba/activemq/tree/main
-      title: "✅ main — producción"
-      icon: github
 spec:
-  type: library
+  type: website
   lifecycle: experimental
   owner: user:default/guest
+  domain: investigacion-ia
+  system: Solucion MQ
